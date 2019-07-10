@@ -1,5 +1,13 @@
 // Because classes are not hoisted you will need to start your code at the bottom of the page.  Look for the comment "START HERE"
 
+function createNewsfeedComponent() {
+    const allArticles = document.createElement('div');
+    const article = document.createElement('div');
+    const articleHeading = document.createElement('h2');
+    const date = document.createElement('p');
+    const button = document.createElement('span');
+}
+
 class Article {
     constructor(domElement) {
         // assign this.domElement to the passed in domElement
